@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Tamzen:pixelsize=20:antialias=true:autohint=true";
-static char *font2[] = { "Tamzen:pixelsize=15:antialias=true:autohint=true" };
+static char *font = "DejaVu Sans Mono:style=Bold:pixelsize=16:antialias=true:autohint=true";
+static char *font2[] = { "DejaVu Sans Mono:pixelsize=12:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -164,7 +164,7 @@ static unsigned int rows = 24;
 /*
  * Default colour and shape of the mouse cursor
  */
-static unsigned int mouseshape = XC_xterm;
+static unsigned int mouseshape = XC_left_ptr;
 static unsigned int mousefg = 7;
 static unsigned int mousebg = 0;
 
